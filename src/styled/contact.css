@@ -1,0 +1,12 @@
+.contactForm_title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.card_body{
+    display: flex;
+    justify-content:center;
+    padding: 3rem;
+}
