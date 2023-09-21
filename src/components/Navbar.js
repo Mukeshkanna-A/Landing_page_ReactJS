@@ -9,14 +9,14 @@ function NavbarScroll() {
     <Navbar expand="lg" className="bg-light">
       <Container fluid>
         <Navbar.Brand href="#" className='p-3'
-        style={{ fontSize: '2rem',fontWeight:'bolder' }}>Design</Navbar.Brand>
+        style={{ fontSize: '2rem',fontWeight:'bolder'}}>Design</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="ms-auto my-2 my-lg-0 pe-5"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '300px' }}
           >
-            <Nav.Link href="#action1" style={{ fontSize: '1rem',fontWeight:'bold' }}>Home</Nav.Link>
+            <Nav.Link href="#action1" style={{ fontSize: '1rem',fontWeight:'bold'}}>Home</Nav.Link>
             <Nav.Link href="#" style={{ fontSize: '1rem',fontWeight:'bold' }}>Contact</Nav.Link>
           </Nav>
             <Button variant="outline-primary" className='my-3 me-3'>Sign in</Button>

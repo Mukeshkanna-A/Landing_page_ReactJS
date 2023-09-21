@@ -8,11 +8,11 @@ import Row from "react-bootstrap/Row";
 import "../styled/contact.css";
 
 
-function FormGroup() {
+function Register() {
   return (
     
     <div>
-      <div className="contactForm_title">Contact</div><hr></hr>
+      <div className="contactForm_title">Register</div><hr></hr>
       <div className="card_body">
      
         <Card
@@ -21,7 +21,7 @@ function FormGroup() {
           className="form_content"
         >
           <Card.Header className="text-center" style={{ fontSize: '1rem',fontWeight:'bold' }}>
-            Sign in
+            Register
           </Card.Header>
           <Card.Body>
             <>
@@ -61,4 +61,4 @@ function FormGroup() {
   );
 }
 
-export default FormGroup;
+export default Register;
